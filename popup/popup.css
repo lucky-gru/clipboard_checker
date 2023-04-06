@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 32rem;
+  padding: 10px;
+  user-select: none;
+}
+
+.line {
+  width: 100%;
+  display: flex;
+  margin-bottom: 14px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.line label {
+  width: 80px;
+}
+
+.line input {
+  width: calc(100% - 98px);
+  margin-right: 4px;
+}
+
+.line img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 12px;
+}
+
+#result div {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 12px;
+}
+
+#result span {
+  width: 11px;
+  height: 14px;
+  display: block;
+  background: black;
+  border: green;
+  color: white;
+  text-align: center;
+}
+
+#result span .diff {
+  background: red;
+  color: green;
+}
+
+#say {
+  margin-left: 30px;
+  font-weight: bold;
+}
