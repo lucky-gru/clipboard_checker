@@ -1,2 +1,2 @@
 # clipboard_checker
-Check if your clipboard is hacked
+Chrome extension - check if your clipboard is working as expected
